@@ -1,0 +1,86 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_phrase"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/material_brown_900"/>
+    <EditText
+        android:id="@+id/login_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/email_hint"
+        android:layout_below="@id/txt_welcome"
+        android:textColor="@color/material_brown_500"
+        />
+    <EditText
+        android:id="@+id/pass_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/Password_hint"
+        android:layout_below="@id/login_txt"
+        android:textColor="@color/material_brown_500"
+        />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_hint"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/pass_txt"
+       android:textColor="@color/material_brown_500"
+        />
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_pass"
+        android:layout_below="@id/btn_login"
+        android:padding="10dp"
+        android:clickable="true"
+        android:textColor="@color/material_brown_900"
+        />
+    <TextView
+        android:id="@+id/OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/forgot"
+        android:text="OR"
+        android:layout_below="@id/btn_login"
+        android:padding="10dp"
+        android:textColor="@color/material_brown_900"
+        />
+    <TextView
+        android:id="@+id/txt_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:padding="10dp"
+        android:layout_below="@id/btn_login"
+        android:layout_toRightOf="@id/OR"
+        android:clickable="true"
+        android:textColor="@color/material_brown_900"/>
+
+
+
+
+
+
+</RelativeLayout>

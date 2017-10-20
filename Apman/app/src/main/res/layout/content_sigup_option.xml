@@ -1,0 +1,45 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/txt_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_phrase"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/btn_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/signup_owner_hint"
+        android:textSize="20dp"
+        android:textColor="@color/material_brown_500"
+        android:layout_below="@id/txt_signup"
+        android:layout_margin="50dp"
+        />
+    <Button
+        android:id="@+id/btn_tenant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/signup_tenant_hint"
+        android:textSize="20dp"
+        android:textColor="@color/material_brown_500"
+        android:layout_marginLeft="100dp"
+        android:layout_centerInParent="true"
+        />
+
+
+
+</RelativeLayout>
